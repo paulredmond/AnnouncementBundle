@@ -8,11 +8,9 @@ class AnnouncementController extends Controller
 {
     public function currentAnnouncementAction()
     {
-        $announcement = $this->getRepository()->current();
-
         return $this->render(
             'RedmonsterPaulRevereBundle:Announcement:announcement.html.twig',
-            array('current_announcement' => $announcement)
+            array('current_announcement' => $this->getRepository()->current())
         );
     }
 
