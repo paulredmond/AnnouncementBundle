@@ -11,7 +11,7 @@ class AnnouncementRepository extends EntityRepository
     {
         $current = $this->findBy(array(), array('createdAt' => 'DESC'), 1);
 
-        return (array) array_shift($current);
+        return empty($current) ? array() : array_shift($current);
     }
 
 }
