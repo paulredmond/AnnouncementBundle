@@ -12,6 +12,7 @@ services:
 
     redmonster_announcement.announcement_extension:
         class: "Redmonster\AnnouncementBundle\Twig\AnnouncementExtension"
+        public: false
         arguments: [@service_container]
         tags:
             - { name: twig.extension }
