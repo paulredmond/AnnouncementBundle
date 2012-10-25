@@ -1,6 +1,6 @@
 <?php
 
-namespace Redmonster\PaulRevereBundle\Tests\Controller;
+namespace Redmonster\AnnouncementBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

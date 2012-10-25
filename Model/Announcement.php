@@ -1,6 +1,6 @@
 <?php
 
-namespace Redmonster\PaulRevereBundle\Model;
+namespace Redmonster\AnnouncementBundle\Model;
 
 abstract class Announcement
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Redmonster\PaulRevereBundle\Entity;
+namespace Redmonster\AnnouncementBundle\Entity;
 
 use Doctrine\ORM\EntityRepository;
 

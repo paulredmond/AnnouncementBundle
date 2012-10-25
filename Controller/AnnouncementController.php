@@ -1,6 +1,6 @@
 <?php
 
-namespace Redmonster\PaulRevereBundle\Controller;
+namespace Redmonster\AnnouncementBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
@@ -9,7 +9,7 @@ class AnnouncementController extends Controller
     public function currentAnnouncementAction()
     {
         return $this->render(
-            'RedmonsterPaulRevereBundle:Announcement:announcement.html.twig',
+            'RedmonsterAnnouncementBundle:Announcement:announcement.html.twig',
             array('current_announcement' => $this->getRepository()->current())
         );
     }
@@ -19,6 +19,8 @@ class AnnouncementController extends Controller
      */
     private function getRepository()
     {
-        return $this->get('redmonster_paul_revere.repository.announcement');
+        return $this->get('redmonster_announcement.repository.announcement');
     }
 }
+
+

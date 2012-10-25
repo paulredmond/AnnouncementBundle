@@ -1,12 +1,12 @@
 parameters:
-    redmonster_paul_revere.announcement_repository.class: Redmonster\PaulRevereBundle\Entity\AnnouncementRepository
-    redmonster_paul_revere.entity.announcement: Redmonster\PaulRevereBundle\Entity\Announcement
+    redmonster_announcement.announcement_repository.class: Redmonster\AnnouncementBundle\Entity\AnnouncementRepository
+    redmonster_announcement.entity.announcement: Redmonster\AnnouncementBundle\Entity\Announcement
 
 services:
-    redmonster_paul_revere.repository.announcement:
+    redmonster_announcement.repository.announcement:
         factory_service: "doctrine.orm.entity_manager"
         factory_method: "getRepository"
-        class: "%redmonster_paul_revere.announcement_repository.class%"
+        class: "%redmonster_announcement.announcement_repository.class%"
         arguments:
-            -  "%redmonster_paul_revere.entity.announcement%"
+            -  "%redmonster_announcement.entity.announcement%"
 

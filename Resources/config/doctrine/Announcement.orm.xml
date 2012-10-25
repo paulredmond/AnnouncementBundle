@@ -4,9 +4,9 @@
                   xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
                     http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
-    <entity name="Redmonster\PaulRevereBundle\Entity\Announcement"
+    <entity name="Redmonster\AnnouncementBundle\Entity\Announcement"
             table="announcements"
-            repository-class="Redmonster\PaulRevereBundle\Entity\AnnouncementRepository">
+            repository-class="Redmonster\AnnouncementBundle\Entity\AnnouncementRepository">
         <id name="id" type="integer" column="id">
             <generator strategy="AUTO" />
         </id>

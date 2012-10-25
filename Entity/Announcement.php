@@ -1,8 +1,8 @@
 <?php
 
-namespace Redmonster\PaulRevereBundle\Entity;
+namespace Redmonster\AnnouncementBundle\Entity;
 
-use Redmonster\PaulRevereBundle\Model\Announcement as BaseAnnouncement;
+use Redmonster\AnnouncementBundle\Model\Announcement as BaseAnnouncement;
 
 
 class Announcement extends BaseAnnouncement {}

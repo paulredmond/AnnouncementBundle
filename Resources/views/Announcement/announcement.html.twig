@@ -1,6 +1,6 @@
-{%- if current_announcement -%}
+{% if current_announcement %}
 {#{%- if current_announcement and announcement_hidden(current_announcement) is false -%}#}
 <div id="announcement">
-    <span>{{ current_announcement.body }}</span>
+    <span>{{ current_announcement.body|raw }}</span>
 </div>
-{%- endif -%}
+{% endif %}

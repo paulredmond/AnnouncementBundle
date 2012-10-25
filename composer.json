@@ -1,7 +1,7 @@
 {
-    "name": "redmonster/paul-revere-bundle",
+    "name": "redmonster/announcement-bundle",
     "type": "symfony-bundle",
-    "description": "Bundle that displays site announcements.",
+    "description": "Bundle that displays the latest site announcements.",
     "keywords": ["announcements", "redmonster", "bundle"],
     "homepage": "",
     "license": "MIT",
@@ -11,8 +11,5 @@
             "homepage": "http://goredmonster.com"
         }
     ],
-    "require": {
-        "doctrine/doctrine-migrations-bundle": "dev-master"
-    }
-
+    "target-dir": "Redmonster/AnnouncementBundle"
 }
