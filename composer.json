@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "Bundle that displays the latest site announcements.",
     "keywords": ["announcements", "redmonster", "bundle"],
-    "homepage": "",
+    "homepage": "https://github.com/redmonster/AnnouncementBundle",
     "license": "MIT",
     "authors": [
         {
@@ -11,5 +11,9 @@
             "homepage": "http://goredmonster.com"
         }
     ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony": "2.1.*"
+    },
     "target-dir": "Redmonster/AnnouncementBundle"
 }
