@@ -10,3 +10,8 @@ services:
         arguments:
             -  "%redmonster_announcement.entity.announcement%"
 
+    redmonster_announcement.announcement_extension:
+        class: "Redmonster\AnnouncementBundle\Twig\AnnouncementExtension"
+        arguments: [@service_container]
+        tags:
+            - { name: twig.extension }
